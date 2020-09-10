@@ -28,7 +28,7 @@ public class secondActivity extends AppCompatActivity {
         viewModel.init();
 
         //when oncreate is called changes reflect (not live)
-        textView2.setText(""+viewModel.getProgress().getValue());
+        textView2.setText("seekbar progress  "+viewModel.getProgress().getValue());
 
 
         //observe change data love due to  Observer(continous change)
